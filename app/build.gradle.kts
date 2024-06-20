@@ -5,7 +5,11 @@ plugins {
 
 android {
     namespace = "com.gamaliel.week14"
-    compileSdk = 33
+    compileSdk = 34
+
+    buildFeatures{
+        viewBinding = true
+    }
 
     defaultConfig {
         applicationId = "com.gamaliel.week14"
